@@ -156,12 +156,13 @@ $ docker exec jd-seckill jd-seckill reserve
 # 执行秒杀
 $ docker exec jd-seckill jd-seckill seckill
 
-## 直接使用已编译好的镜像运行
+## 直接使用已编译好的镜像运行 chinaarjun/jd-seckill-docker 
 
 ### docker-compose运行
 * 运行容器
 * 修改配置文件 compose/common/configs/config.ini
 * 在compose目录中执行命令 docker-compose up -d
+* 注意：如果运行失败请核对docker-compose.yaml文件中镜像名称是否正确
 
 ### docker命令运行，只需要配置config.ini
 * 执行命令: 
